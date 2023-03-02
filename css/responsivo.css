@@ -1,0 +1,156 @@
+@media screen and (max-width:1210px){
+    .logo{
+        padding-left: 5%;
+    }
+}
+@media screen and (max-width:1045px){
+    .foto img{
+        width: 550px;
+        height: 350px;
+    }
+    .intro .foto{
+        margin-top: 25px;
+    }
+    .logo > h1{
+        width: 200px;
+    }
+    .menu{
+        padding-left: 30%;
+    }
+}
+@media screen and (max-width:1110px){
+    .logo{
+        padding-left: 2%;
+    }
+    .pg01{
+        width: 500px;
+    }
+}
+@media screen and (max-width: 1005px){
+    .menu{
+        display: none;
+    }
+    .logo{
+        width: 0;
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .foto img{
+        width: 500px;
+        height: 300px;
+    }
+    .intro .foto{
+        margin-top: 70px;
+    }
+}
+@media screen and (max-width: 990px){
+    .intro .foto{
+        margin-top: 70px;
+    }
+   .texto-area{
+    padding-left: 5%;
+   }
+    .pg01{
+        letter-spacing: 10px;
+        font-size: 1em;
+    }
+    .intro > div > h1{
+        font-size: 2em;
+    }
+    .card{
+        width: 280px;
+        height: 380px;
+    }
+}
+@media screen and (max-width: 980px){
+
+}
+@media screen and (max-width:920px){
+    .card{
+        width: 240px;
+        height: 380px;
+    }
+    .card > img{
+           margin-left: 90px;
+    }
+}
+@media screen and (max-width:916px){
+   .texto-area{
+    padding-left: 2%;
+   }
+}
+@media screen and (max-width:800px){
+    .card{
+        width: 200px;
+        height: 380px;
+    }
+    .card img{
+        margin: 0;
+        margin-left: 70px;
+        margin-top: 5px;
+    }
+    .texto{
+        margin-top: 200px;
+    }
+}
+@media screen and (max-width:790px){
+    .pg01{
+        letter-spacing: 5px;
+    }
+    .foto img{
+        display: none;
+    }
+    .pic img{
+        display: block;
+    }
+    .texto-header {
+        padding-left: 1%;
+    }
+}
+@media screen and (max-width:710px){
+    .texto-header{
+        padding-top: 25px;
+    }
+    .pg01{
+        width: 300px;
+    }
+
+}
+@media screen and (max-width:670px){
+    .card{
+        width: 160px;
+        height: 380px;
+    }
+    .card > img{
+     margin: 0;
+     margin-left: 50px;
+    }
+}
+@media screen and (max-width:570px){
+    
+    .card{
+        width: 160px;
+        height: 380px;
+    }
+    .card > img{
+        margin: 0;
+        margin-left: 60px;
+        width: 45px;
+        height: 45px;
+    }
+    
+}
+@media screen and (max-width:560px){
+    .card{
+        width: 170px;
+        height: 380px;
+    }
+    .card > img{
+          width: 32px;
+          height: 32px;
+    }
+}
+@media screen and (max-width:550px){
+   
+}

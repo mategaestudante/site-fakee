@@ -1,0 +1,251 @@
+@font-face {
+    font-family:'Lobster';
+    src: url('/fonts/Lobster-Regular.ttf'); 
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: white;
+    display: flex;
+    position: fixed;
+    top: 1px;
+    width: 100%;
+}
+
+.logo{
+    padding-left: 10%;
+    margin-bottom: 10px;
+    flex: 40%;
+}
+.logo > h1{
+    color: #180f4a;
+    font-family: 'Lobster', cursiva;
+    padding-top: 30px;
+}
+.menu a{
+    margin-top: 5px;
+    text-decoration: none;
+    margin: 10px;
+    color: #180f4a;
+    height: 40px;
+    padding-top: 10px;
+    width: 70px;
+    height: 40px;
+}
+.a{
+    padding: 5px;
+    padding-top: 10px;
+}
+.a1{
+    padding-left: 15px;
+}
+.menu a:hover{
+    border-top: 3px solid #180f4a;
+    color: #FF2978;
+}
+a#botao{
+    text-decoration: none;
+    color: white;
+}
+a#botao:hover{
+    border: none;
+}
+#botao{
+    background-color: #180f4a;
+    width: 150px;
+    height: 50px;
+    margin-left: 20px;
+    padding: 10px;
+    padding-top: 15px;
+    padding-left: 30px;
+    border-radius: 5px;
+    max-width: 100%;
+}
+#botao:hover{
+    cursor: pointer;
+    background-color: #FF2978;
+}
+#botao > a{
+    text-decoration: none;
+    color: white;
+}
+#botao > a:hover{
+    color: #180f4a;
+}
+.menu{
+    float: right;
+    flex: 70%;
+    height: 68.63px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    padding-left: 40%;
+    margin-left: 20px;
+    max-width: 100%;
+}
+
+main{
+    height: 180vh;
+    margin-top: 70px;
+}
+.intro{
+    display: flex;
+    height: 640px;
+}
+.intro .texto-header{
+    flex: 50%;
+    padding-top: 100px;
+}
+.intro .foto{
+   margin-top: 20px;
+}
+.foto > img{
+    max-width: 100%;
+}
+.pg01{
+    letter-spacing: 15px;
+    text-indent: 0;
+    margin: 0;
+    color: #180f4a;
+    font-size: 1.2em;
+    padding-left: 10%;
+}
+.texto-header .pg02{
+    color: gray;
+    padding-left: 10%;
+
+}
+.texto-header h1{
+    text-transform: uppercase;
+    font-size: 2.5em;
+    margin: 0;
+    color: #180f4a;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     padding-left: 10%;
+    }
+ .texto-header .botao2 .contrate a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-left: 10%;
+}
+.contrate{
+    background-color: #FF2978;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    padding-left: 5px;
+    padding-top: 8px;
+    margin-top: 20px;
+}
+.botao2{
+    padding-left: 10%;
+}
+.contrate:hover{
+    background-color: #180f4a;
+    cursor: pointer;
+}
+.texto-header .pic{
+    padding-left: 5%;
+}
+
+.texto{
+    font-family: 'Lobster', cursiva;
+    text-align: center;
+    color: #180f4a;
+}
+.info{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 40vh;
+    margin-top: 50px;
+}
+.info > div {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    border: 2px solid #FF2978;
+    border-radius: 15px;
+    width: 300px;
+    height: 350px;
+}
+.card:hover{
+    background-color: #FF2978;
+    color: white;
+}
+.card > img {
+    margin-top: 20px;
+    margin-left: 115px;
+}
+.card > h1{
+  text-align: center;
+  margin-bottom: 5px;
+}
+.card > p{
+ padding-left: 12px;
+}
+footer{
+    background-image:linear-gradient(45deg,#FF2978, #180f4a);
+    width: 100%;
+}
+footer > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.texto-pe{
+    margin-top: 40px;
+}
+footer > div > h1 {
+      margin-right: 10px;
+      font-family: 'Lobster', cursiva;
+}
+footer > h2 {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+footer > div > ul{
+    list-style: none;
+}
+
+footer > div > ul > a{
+    color: white;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+footer > div > ul > a > img{
+   padding-right: 5px;
+}
+.lista{
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
+}
+footer .img img{
+    width: 100px;
+    height: 100px;
+}
+footer .img{
+    display: flex;
+    justify-content: space-evenly;
+}
+footer .verif{
+    text-align: center;
+    letter-spacing: 8px;
+}
+.pic{
+    width: 480px;
+    height: 280px;
+}
+.pic img{
+    width: 550px;
+    height: 320px;
+    display: none;
+}
